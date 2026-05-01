@@ -28,11 +28,11 @@ To run the game and test the different algorithms, clone the repository and use 
 ```bash
 python pacman.py -l mediumMaze -p SearchAgent -a fn=dfs
 
-**2. Run Breadth-First Search (BFS):
+**2. Run Breadth-First Search (BFS):**
 ```bash
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 
-**3. Run A Search (with Manhattan Heuristic):*
+**3. Run A Search (with Manhattan Heuristic):**
 ```bash
 python pacman.py -l bigMaze -z .5 -p SearchAgent -a fn=astar,heuristic=manhattanHeuristic
 
